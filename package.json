@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "start": "bun run src/server.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "redis": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "name": "21-tinyqueue",
+  "version": "1.0.0",
+  "description": "Redis-backed job queue with FIFO processing",
+  "main": "src/server.ts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true
+}
+
