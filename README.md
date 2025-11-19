@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone or 
 
 ```bash
-git clone 
+git clone https://github.com/dexter-ifti/TinyQueue.git
 cd tinyqueue
 ```
 
